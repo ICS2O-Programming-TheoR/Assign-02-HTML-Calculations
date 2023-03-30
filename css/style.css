@@ -18,7 +18,7 @@ h1 {
 }
 
 p {
-  color: #0014a8;
+  color: darkblue;
   font-size: 150%;
   font-weight: bold;
   text-align: center;
@@ -31,5 +31,5 @@ h3 {
 
 img {
   position: absolute; left: 20%;
-  position: absolute; bottom: 30%;
+  padding-top: 10%;
 }

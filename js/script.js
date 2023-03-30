@@ -17,7 +17,7 @@ function enterClicked() {
 
 function enterClicked2() {
   let density = parseFloat(document.getElementById("density-value").value);
-  let volume = parseFloat(document.getElementById("volume-Value").value);
+  let volume = parseFloat(document.getElementById("volume-value-two").value);
   
   //This is the math for the mass formula
   let mass = density * volume
@@ -28,8 +28,8 @@ function enterClicked2() {
 }
 
 function enterClicked3() {
-  let density = parseFloat(document.getElementById("density-Value").value);
-  let mass = parseFloat(document.getElementById("mass-Value").value);
+  let density = parseFloat(document.getElementById("density-value-two").value);
+  let mass = parseFloat(document.getElementById("mass-value-two").value);
 
   let volume = mass / density
   let volumeRounded = volume.toFixed(2)
