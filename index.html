@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Calculating density">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Theo Rafuse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="shortcut icon" href="./images/density.png">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculating density with JS</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Calculating density, mass, and volume</h1>
+    <img src="./images/Density.Formula.jpg">
+    <p>This webpage allows the user to calculate density, volume, and mass, using the data that the user inputs. This webpage is able to calculate density, volume, and mass, because of the following formulas: Density = Mass / Volume, Mass = Density * Volume, and Volume = Mass / Density.</p>
+    <p>
+      <h3>Calculate for Density:</h3>
+      <form action="javascript:enterClicked()">
+        <label for="mass-value">Mass (g):</label>
+        <input type="number" id="mass-value" placeholder="Mass" step=".01"><br><br>
+        <label for="volume-value">Volume (cm<sup>3</sup>):</label>
+        <input type="number" id="volume-value" placeholder="Volume" step=".01"><br><br>
+        <input type="submit" value="Calculate Density">
+      </form>
+    </p>
+    <!-- Creates a space where the user information will be displayed -->
+    <div id="density-info"></div>
+    <p></p>
+    
+    <p>
+      <h3>Calculate for Mass:</h3>
+      <form action="javascript:enterClicked2()">
+        <label for="density-value">Density (g/cm<sup>3</sup>):</label>
+        <input type="number" id="density-value" placeholder="Density" step=".01"><br><br>
+        <label for="volume-Value">Volume (cm<sup>3</sup>):</label>
+        <input type="number" id="volume-Value" placeholder="Volume" step=".01"><br><br>
+        <input type="submit" value="Calculate Mass">
+      </form>
+    </p>
+    <!-- Creates a space where the user information will be displayed -->
+    <div id="mass-info"></div>
+    <p></p>
+
+    <p>
+      <h3>Calculate for Volume:</h3>
+      <form action="javascript:enterClicked3()">
+        <label for="density-Value">Density (g/cm<sup>3</sup>):</label>
+        <input type="number" id="density-Value" placeholder="Density" step=".01"><br><br>
+        <label for="mass-Value">Mass (g):</label>
+        <input type="number" id="mass-Value" placeholder="Mass" step=".01"><br><br>
+        <input type="submit" value="Calculate Volume">
+      </form>
+    </p>
+    <!-- Creates a space where the user information will be displayed -->
+    <div id="volume-info"></div>
+    <p></p>
+      
+  </body>
+</html>
