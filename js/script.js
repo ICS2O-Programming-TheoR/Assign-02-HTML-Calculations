@@ -1,7 +1,10 @@
+"use strict";
 // Copyright (c) 2022 Theo Rafuse All rights reserved
 // Created by: Theo Rafuse
 // Created on: Mar 2023
 // This file contains the JS functions for index.html
+
+
 
 function enterClicked() {
   let mass = parseFloat(document.getElementById("mass-value").value);
