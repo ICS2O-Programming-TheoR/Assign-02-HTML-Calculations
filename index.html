@@ -21,7 +21,7 @@
     <script src="./js/script.js"></script>
     <h1>Calculating density, mass, and volume</h1>
     <img src="./images/Density.Formula.jpg" alt="E">
-    <p>This webpage allows the user to calculate density, volume, and mass, using the data that the user inputs. This webpage is able to calculate density, volume, and mass, because of the following formulas: Density = Mass / Volume, Mass = Density * Volume, and Volume = Mass / Density.</p>
+    <center><p>This webpage allows the user to calculate density, volume, and mass, using the data that the user inputs. This webpage is able to calculate density, volume, and mass, because of the following formulas: Density = Mass / Volume, Mass = Density * Volume, and Volume = Mass / Density.</p></center>
     <p>
       <h3>Calculate for Density:</h3>
       <form action="javascript:enterClicked()">
@@ -62,7 +62,18 @@
     </p>
     <!-- Creates a space where the user information will be displayed -->
     <div id="volume-info"></div>
-    <p></p>
+    <p></p><br>
+
+    <!-- MDL component -->
+    <p>Have you used the density formula before?</p>
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+  <span class="mdl-radio__label">Yes</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+  <span class="mdl-radio__label">No</span>
+</label><br>
       
   </body>
 </html>

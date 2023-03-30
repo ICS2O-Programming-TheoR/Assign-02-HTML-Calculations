@@ -21,7 +21,6 @@ p {
   color: darkblue;
   font-size: 150%;
   font-weight: bold;
-  text-align: center;
 }
 
 h3 {
@@ -30,7 +29,6 @@ h3 {
 }
 
 img {
-  position: absolute; 
-  left: 20%;
+  position: absolute; left: 20%;
   padding-top: 10%;
 }
